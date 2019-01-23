@@ -22,3 +22,7 @@ parking_group = df.groupby("parking_lot")
 
 # Calculate the mean ratings
 parking_group["service_rating"].mean()
+
+df.gender.cat.categories 
+
+df.gender.cat.codes 
